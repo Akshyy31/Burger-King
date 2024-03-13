@@ -1,0 +1,104 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   font-family: 'poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: rgb(44, 21,5);
+    margin-top: 26px;
+}
+nav img{
+    width: 5%;
+    margin-top: -16px;
+}
+nav h4{
+     font-size: 18px; 
+}
+nav h4:hover{
+    border-bottom: 2px solid rgb(81, 41, 12) ;
+}
+nav button{
+    width: 90px;
+    height: 33px ;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 22px;
+    font-size: 17px;
+    margin-top: -3px;
+
+}
+nav button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(40, 19, 4);
+    color: rgb(40, 19, 4) ;
+}
+nav p{
+    margin-top: 2px;
+}
+.crd{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 33px;
+
+}
+.crd .card{
+    background-color: white;
+    width: 500px;
+}
+.crd .card img{
+    width:100% ;
+    border: radius 6px;
+
+}
+body{
+    background-color: antiquewhite  ;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(251,227, 196);
+    margin-top: 50px;
+    padding:22px;
+}
+.app .mobile img{
+    width:65% ;
+}
+.app .text h1{
+    color:rgb(74, 38, 12) ;
+    font-size:44px;;
+}
+.app .text button{
+width: 160px;
+height: 40px;
+color: white;
+background-color: black;
+border: none;
+font-size: 20px;
+margin-top: 20px;
+
+}
+.app button:hover{
+    background-color: green;
+}
+.text p{
+    margin-top: 22px;
+}
+.text{
+    margin-top: 22px;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(44, 22, 7);
+    color: white;
+    padding: 33px;
+    margin-top: 44px;
+}
